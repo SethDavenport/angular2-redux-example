@@ -1,3 +1,7 @@
+// Remove once https://github.com/angular/angular/issues/#6501 has
+// been resolved.
+require('../vendor/shims_for_IE');
+
 import {
   Component,
   View,
